@@ -49,7 +49,7 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <!-- Keeping filtering at true here reduces plugin.yml redundancy! -->
-                <filtering>true</filtering>
+                <filtering>true</filtering> <!-- Filter variables -->
                 <includes>
                     <include>plugin.yml</include>
                 </includes>
