@@ -48,19 +48,9 @@
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
-                <!-- Keeping filtering at true here reduces plugin.yml redundancy! -->
-                <filtering>true</filtering> <!-- Filter variables -->
-                <includes>
-                    <include>plugin.yml</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <!-- Keep filtering at false for other resources to prevent bad magic -->
-                <filtering>false</filtering>
+                <filtering>true</filtering>
                 <excludes>
                     <exclude>**/*.java</exclude>
-                    <exclude>plugin.yml</exclude>
                 </excludes>
             </resource>
         </resources>
@@ -80,7 +70,7 @@
             <!-- Include dependencies inside jar -->
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.2.0</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
