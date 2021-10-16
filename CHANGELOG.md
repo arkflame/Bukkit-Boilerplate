@@ -11,3 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initialized project.
 - Added changelog.
+
+### Changed
+
+- README.md better description.
+
+### Removed
+
+- Removed Jenkinsfile
