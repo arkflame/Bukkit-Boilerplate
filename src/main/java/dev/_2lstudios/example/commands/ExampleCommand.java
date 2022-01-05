@@ -1,11 +1,11 @@
-package me.sammwy.example.commands;
+package dev._2lstudios.example.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import me.sammwy.example.ExamplePlugin;
+import dev._2lstudios.example.ExamplePlugin;
 
 public class ExampleCommand implements CommandExecutor {
     @Override

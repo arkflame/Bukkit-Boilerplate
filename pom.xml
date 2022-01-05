@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <!-- Project information -->
-    <groupId>me.sammwy</groupId>
+    <groupId>dev._2lstudios</groupId>
     <artifactId>ExamplePlugin</artifactId>
     <packaging>jar</packaging>
 
@@ -10,11 +10,11 @@
     <name>ExamplePlugin</name>
     <description>This is just an example plugin</description>
     <version>0.0.1</version>
-    <url>https://twitter.com/sammwy</url>
+    <url>https://github.com/2lstudios-mc/bukkit-boilerplate</url>
 
     <properties>
-        <author>Sammwy</author>
-        <mainClass>me.sammwy.example.ExamplePlugin</mainClass>
+        <author>2LStudios</author>
+        <mainClass>dev._2lstudios.example.ExamplePlugin</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

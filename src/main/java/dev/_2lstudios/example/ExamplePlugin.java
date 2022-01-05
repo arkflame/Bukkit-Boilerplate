@@ -1,10 +1,10 @@
-package me.sammwy.example;
+package dev._2lstudios.example;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.sammwy.example.commands.ExampleCommand;
-import me.sammwy.example.listeners.PlayerJoinListener;
-import me.sammwy.example.tasks.ExampleTask;
+import dev._2lstudios.example.commands.ExampleCommand;
+import dev._2lstudios.example.listeners.PlayerJoinListener;
+import dev._2lstudios.example.tasks.ExampleTask;
 
 public class ExamplePlugin extends JavaPlugin {
     

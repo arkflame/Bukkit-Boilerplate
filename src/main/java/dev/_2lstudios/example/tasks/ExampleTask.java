@@ -1,8 +1,8 @@
-package me.sammwy.example.tasks;
+package dev._2lstudios.example.tasks;
 
 import org.bukkit.Bukkit;
 
-import me.sammwy.example.ExamplePlugin;
+import dev._2lstudios.example.ExamplePlugin;
 
 public class ExampleTask implements Runnable {
     @Override

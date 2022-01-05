@@ -1,11 +1,11 @@
-package me.sammwy.example.listeners;
+package dev._2lstudios.example.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import me.sammwy.example.ExamplePlugin;
+import dev._2lstudios.example.ExamplePlugin;
 
 public class PlayerJoinListener implements Listener {
     @EventHandler
