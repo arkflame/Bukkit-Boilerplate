@@ -3,6 +3,7 @@ description: ${description}
 author: ${author}
 main: ${mainClass}
 version: ${version}
+api-version: 1.13
 url: ${url}
 commands:
   example:
